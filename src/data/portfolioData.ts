@@ -72,7 +72,7 @@ export const portfolioData: PortfolioData = {
     phone: "+91-8218722282",
     linkedin: "https://www.linkedin.com/in/harshilvarshney/",
     github: "https://github.com/harshil-var",
-    leetcode: "https://leetcode.com/u/harshilvarshney/",
+    leetcode: "https://leetcode.com/u/HarshilVarshney13/",
     cgpa: "8.0 / 10.0",
     summary: "AI Engineer with strong foundations in Python, SQL, Data Structures & Algorithms, and Object-Oriented Programming. Builds end-to-end AI and data-driven applications involving LLMs, agentic workflows, web data extraction, REST APIs, data processing, and ML.",
     aboutBio: [

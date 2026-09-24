@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, FileText, Sparkles, Sun, Moon } from 'lucide-react';
+import { Menu, X, FileText, Sun, Moon } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 
 interface NavbarProps {
@@ -79,10 +79,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResume, darkMode, onToggle
           className="flex items-center gap-2.5 group cursor-pointer"
         >
           <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-cyan-500 p-0.5 shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform duration-300">
-            <div className={`w-full h-full rounded-[10px] flex items-center justify-center transition-colors ${
+            <div className={`w-full h-full rounded-[10px] flex items-center justify-center font-black text-sm font-mono-code tracking-tighter transition-colors ${
               darkMode ? 'bg-slate-950 text-indigo-400 group-hover:text-white' : 'bg-white text-indigo-600 group-hover:text-indigo-700'
             }`}>
-              <Sparkles className="w-4 h-4" />
+              H
             </div>
           </div>
           <span className={`font-bold tracking-tight text-lg transition-colors ${

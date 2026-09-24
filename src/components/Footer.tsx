@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Code2, Mail, ArrowUp } from 'lucide-react';
+import { Code2, Mail, ArrowUp } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
 
@@ -30,10 +30,10 @@ export const Footer: React.FC<FooterProps> = ({ darkMode = true }) => {
           {/* Brand & Tagline */}
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-cyan-500 p-0.5 shadow-md shadow-indigo-500/20">
-              <div className={`w-full h-full rounded-[10px] flex items-center justify-center ${
+              <div className={`w-full h-full rounded-[10px] flex items-center justify-center font-black text-sm font-mono-code tracking-tighter ${
                 darkMode ? 'bg-slate-950 text-indigo-400' : 'bg-white text-indigo-600'
               }`}>
-                <Sparkles className="w-4 h-4" />
+                H
               </div>
             </div>
             <div>
